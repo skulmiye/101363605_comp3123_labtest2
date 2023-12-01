@@ -1,0 +1,83 @@
+.weather-app {
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-right: 8px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: cadetblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: teal;
+  }
+  
+  .error-message {
+    color: #d9534f;
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .current-weather,
+  .weekly-forecast {
+    width: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  .current-weather{
+    background-color: lightblue;
+  }
+
+  .weather-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .weekly-forecast {
+    text-align: left;
+    background-color: wheat;
+    
+  }
+  
+  .forecast-days {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .forecast-day {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .forecast-day img {
+    width: 50px; 
+    height: 50px; 
+    margin-bottom: 5px;
+  }
+
+  
